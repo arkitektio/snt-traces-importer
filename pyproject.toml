@@ -1,0 +1,31 @@
+[project]
+name = "snt-traces-importer"
+version = "0.1.0"
+description = "Imports SNT (Simple Neurite Tracer) .traces files as mikro annotation collections"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arkitekt[all]>=14.1.0",
+    # `AnnotationSpecInput.traced_on` (Annotation.tracedOn) is new in the next major.
+    "mikro>=13.1.0",
+    "numpy>=2.0",
+    "pint>=0.24",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+addopts = "-m 'not hub'"
+
+[tool.semantic_release]
+version_variables = ["app.py:__version__"]
+commit_message = "chore(release): {version} [skip ci]"
+tag_format = "v{version}"
+allow_zero_version = true
+
+[tool.semantic_release.branches.release]
+match = "main"
+prerelease = false
