@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.1.2 (2026-11-15)
+
+### Bug Fixes
+
+- **deps**: Arkitekt 17 and arkitekt-spec 11
+  ([`d1144c0`](https://github.com/arkitektio/snt-traces-importer/commit/d1144c0b7fecb08dc0f796620a5242489b9e4f52))
+
+
 ## v0.1.1 (2026-11-15)
 
 ### Bug Fixes
