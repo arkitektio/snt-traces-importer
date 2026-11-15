@@ -1,7 +1,7 @@
 # snt-traces-importer
 
 <!-- arkitekt:badge -->
-<!-- The release workflow puts the 'Open in Arkitekt' badge here on its first run. -->
+[![Open in Arkitekt](https://arkitekt.live/img/badge/open-in-arkitekt.svg)](https://arkitekt.live/deeplink?orkestrator=%2Fdo%2Fv1%2Frepo.install%3Fsource%3Doci%253Aghcr.io%252Farkitektio%252Fsnt-traces-importer)
 <!-- /arkitekt:badge -->
 
 An Arkitekt plugin that imports SNT (Simple Neurite Tracer) `.traces` files into mikro as
