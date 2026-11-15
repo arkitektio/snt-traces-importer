@@ -50,7 +50,7 @@ from snt_traces import SntPath, Tracings, read_tracings
 logger = logging.getLogger(__name__)
 
 # The version of the app. A release is the commit tagged with it (v1.2.3).
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 app = App(
     "snt-traces-importer",
