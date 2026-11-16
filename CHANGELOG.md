@@ -2,6 +2,19 @@
 
 <!-- version list -->
 
+## v0.1.3 (2026-11-16)
+
+### Bug Fixes
+
+- Release an image built on arkitekt 18
+  ([`3fa14fa`](https://github.com/arkitektio/snt-traces-importer/commit/3fa14fa2bc5dcb7cee770a6deee71f13b4574388))
+
+### Build System
+
+- Lock arkitekt 18
+  ([`7aab15b`](https://github.com/arkitektio/snt-traces-importer/commit/7aab15bc26dd47a14e80e6c760fff7393838d67e))
+
+
 ## v0.1.2 (2026-11-15)
 
 ### Bug Fixes
