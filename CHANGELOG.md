@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.1.4 (2026-11-24)
+
+### Bug Fixes
+
+- Build on arkitekt 18.5.2, rekuest 18, arkitekt-spec 13 and mikro 14.2
+  ([`f7a4d0d`](https://github.com/arkitektio/snt-traces-importer/commit/f7a4d0d5c03f6901da903ef23ed88e1964752d18))
+
+
 ## v0.1.3 (2026-11-16)
 
 ### Bug Fixes
