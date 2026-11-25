@@ -28,7 +28,7 @@ from dataclasses import dataclass
 from typing import Annotated
 
 from arkitekt import App, DescriptorOperator, Requires, Task, run
-from mikro import Mikro, mikro_service
+from mikro import Mikro
 from mikro.api.schema import (
     AnnotationCollection,
     AnnotationKind,
@@ -61,7 +61,7 @@ app = App(
         "the channel it was traced on."
     ),
     author="jhnnsrs",
-    services=[mikro_service],
+    clients=[Mikro],
 )
 
 #: How far a file's voxel size may stray from the image's before it is worth a warning.

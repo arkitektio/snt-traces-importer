@@ -5,9 +5,9 @@ description = "Imports SNT (Simple Neurite Tracer) .traces files as mikro annota
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "arkitekt[all]>=18.5.2",
+    "arkitekt[all]>=19.0.0",
     # `AnnotationSpecInput.traced_on` (Annotation.tracedOn) is new in the next major.
-    "mikro>=14.2.0",
+    "mikro>=15.0.0",
     "numpy>=2.0",
     "pint>=0.24",
 ]
