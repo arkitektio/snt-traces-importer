@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.1.5 (2026-11-25)
+
+### Bug Fixes
+
+- Runs on arkitekt 19
+  ([`eb67645`](https://github.com/arkitektio/snt-traces-importer/commit/eb67645bd236b40d52fefbf03886362d6392d9f7))
+
+
 ## v0.1.4 (2026-11-24)
 
 ### Bug Fixes
